@@ -18,42 +18,42 @@
     <ClCompile Include="Labo2.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="magicien.cpp">
+    <ClCompile Include="Magicien.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="baton.cpp">
+    <ClCompile Include="Baton.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="utilitaires.cpp">
+    <ClCompile Include="Utilitaires.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="sortattaque.cpp">
+    <ClCompile Include="SortAttaque.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="sortdefense.cpp">
+    <ClCompile Include="SortDefense.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="sort.cpp">
+    <ClCompile Include="Sort.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="magicien.h">
+    <ClInclude Include="Magicien.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="baton.h">
+    <ClInclude Include="Baton.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="utilitaires.h">
+    <ClInclude Include="Utilitaires.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="sortattaque.h">
+    <ClInclude Include="SortAttaque.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="sortdefense.h">
+    <ClInclude Include="SortDefense.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="sort.h">
+    <ClInclude Include="Sort.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

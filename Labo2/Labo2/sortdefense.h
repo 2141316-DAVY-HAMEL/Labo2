@@ -1,6 +1,5 @@
 #pragma once
-#include "sort.h"
-#include "magicien.h"
+#include "Sort.h"
 
 class SortDefense : public Sort
 {
@@ -20,5 +19,5 @@ public:
 	* Fonction qui lance le sort
 	* @param magicienCible le magicien cible du sort
 	*/
-	virtual void lancer(Magicien magicienCible);
+	void lancer(Magicien* magicienCible);
 };

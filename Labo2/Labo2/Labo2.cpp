@@ -1,9 +1,10 @@
 #include "Magicien.h"
-#include <iostream>
 #include "Utilitaires.h"
+#include <iostream>
 
 int main()
 {
+    std:: cout << "Bienvenue dans le jeu de magie !" << std::endl;
     Magicien joueur;
     Magicien ordinateur;
 
@@ -35,7 +36,7 @@ int main()
 
             if (choix == 1)
             {
-                joueur.lancerSort(joueur, ordinateur);
+                joueur.lancerSort(&joueur, &ordinateur);
             }
             else
             {
@@ -51,7 +52,7 @@ int main()
             joueur.afficherEtat();
             if (ordinateur.getMana() >= 10)
             {
-                ordinateur.lancerSort(ordinateur, joueur);
+                ordinateur.lancerSort(&ordinateur, &joueur);
             }
             else
             {
@@ -60,6 +61,7 @@ int main()
             ordinateur.changerTour();
             joueur.changerTour();
         }
+        system("cls");
     }
     if (joueur.getVie() == 0)
     {

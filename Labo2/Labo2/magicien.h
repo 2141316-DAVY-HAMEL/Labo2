@@ -82,7 +82,7 @@ public:
     * @param magicienLanceur le magicien qui lance le sort
     * @param magicienDefenseur le magicien qui recoit le sort
     */
-    void lancerSort(Magicien magicienLanceur, Magicien magicienDefenseur);
+    void lancerSort(Magicien* magicienLanceur, Magicien* magicienDefenseur);
 
     /**
     * Fontion qui permet de changer de baton

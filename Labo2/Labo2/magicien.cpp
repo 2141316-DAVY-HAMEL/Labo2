@@ -1,5 +1,5 @@
-#include "magicien.h"
-#include "utilitaires.h"
+#include "Magicien.h"
+#include "Utilitaires.h"
 #include <iostream>
 
 Magicien::Magicien()
@@ -78,7 +78,7 @@ void Magicien::changerTour()
 	m_estTourDuJoueur = !m_estTourDuJoueur;
 }
 
-void Magicien::lancerSort(Magicien magicienLanceur , Magicien magicienDefenseur)
+void Magicien::lancerSort(Magicien* magicienLanceur , Magicien* magicienDefenseur)
 {
         if (m_mana >= 10)
         {

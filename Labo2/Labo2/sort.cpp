@@ -18,3 +18,7 @@ TypeSort Sort::getType()
 {
 	return m_type;
 }
+
+void Sort::lancer(Magicien* magicienCible)
+{
+}

@@ -1,6 +1,8 @@
 #pragma once
-#include <string>
+
 #include "Magicien.h"
+
+#include <string>
 
 enum TypeSort
 {
@@ -43,5 +45,5 @@ public:
 	/**
 	* Fonction qui lance le sort (virtuelle pure)
 	*/
-	virtual void lancer(Magicien magicienCible) = 0;
+	void lancer(Magicien* magicienCible);
 };

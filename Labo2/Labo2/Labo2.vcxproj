@@ -127,21 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="baton.cpp" />
+    <ClCompile Include="Baton.cpp" />
     <ClCompile Include="Labo2.cpp" />
-    <ClCompile Include="magicien.cpp" />
-    <ClCompile Include="sort.cpp" />
-    <ClCompile Include="sortattaque.cpp" />
-    <ClCompile Include="sortdefense.cpp" />
-    <ClCompile Include="utilitaires.cpp" />
+    <ClCompile Include="Magicien.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="SortAttaque.cpp" />
+    <ClCompile Include="SortDefense.cpp" />
+    <ClCompile Include="Utilitaires.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="baton.h" />
-    <ClInclude Include="magicien.h" />
-    <ClInclude Include="sort.h" />
-    <ClInclude Include="sortattaque.h" />
-    <ClInclude Include="sortdefense.h" />
-    <ClInclude Include="utilitaires.h" />
+    <ClInclude Include="Baton.h" />
+    <ClInclude Include="Magicien.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="SortAttaque.h" />
+    <ClInclude Include="SortDefense.h" />
+    <ClInclude Include="Utilitaires.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
